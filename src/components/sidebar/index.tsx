@@ -124,7 +124,7 @@ const Sidebar = ({
         className="w-full"
         value={wordCount.toString()}
         onValueChange={(e) => setWordCount(Number(e))}
-        // 数字小于 3000
+        // 数字小于 10000
         maxLength={4}
       />
 
